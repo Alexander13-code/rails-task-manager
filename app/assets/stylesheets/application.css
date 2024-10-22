@@ -15,5 +15,78 @@
  */
 
 #tasks{
-  background-color: beige;
+background-color: beige;
+}
+
+html {
+  padding: 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.NewTaskBack{
+  display: flex;
+  text-decoration: solid 20px;
+}
+
+.fa-solid{
+  padding-top: 4px;
+  padding-right: 5px;
+}
+
+#detailsShow{
+  background-color: rgb(243, 243, 243);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  border: 0.20rem solid rgb(225, 225, 225);
+  border-radius: 5px;
+}
+
+#boxShow{
+  height: 50px;
+  border-bottom: 0.20rem solid rgb(225, 225, 225);
+  margin-bottom: 20px;
+}
+
+#titleSow{
+  display: flex;
+  justify-content: space-between;
+}
+
+#editButton{
+  background-color: rgb(243, 243, 243);
+  border: 0.20rem solid rgb(225, 225, 225);
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-weight: bold;
+
+}
+
+form input {
+}
+
+#task_completed{
+  color: black;
+}
+
+#boxEdit{
+  display: flex;
+  align-items: center;
 }
