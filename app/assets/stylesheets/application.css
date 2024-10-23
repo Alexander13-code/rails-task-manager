@@ -34,6 +34,7 @@ ul {
 .NewTaskBack{
   display: flex;
   text-decoration: solid 20px;
+  margin-top: 20px;
 }
 
 .fa-solid{
@@ -79,9 +80,6 @@ form label {
 
 }
 
-form input {
-}
-
 #task_completed{
   color: black;
 }
@@ -89,4 +87,21 @@ form input {
 #boxEdit{
   display: flex;
   align-items: center;
+}
+
+input#task_details{
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+input#task_title {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.submit{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: blue;
+  
 }
